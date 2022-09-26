@@ -125,7 +125,370 @@
             </section>
         </section>
     </section>
+    <section class="section-commands">
+        <section class="section-git">
+            <table class="section-git__table">
+                <caption>Git</caption>
+                <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Function</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>git</td>
+                    <td>List Git commands</td>
+                </tr>
+                <tr>
+                    <td>git status</td>
+                    <td>Show status in repository</td>
+                </tr>
+                <tr>
+                    <td>git status -s</td>
+                    <td>Show status in repository as short</td>
+                </tr>
+                <tr>
+                    <td>git log</td>
+                    <td>Show repository history</td>
+                </tr>
+                <tr>
+                    <td>git clone &lt;repo-clone-url&gt;</td>
+                    <td>Clone remote repository on local machine</td>
+                </tr>
+                <tr>
+                    <td>git branch -a</td>
+                    <td>List local and remote branches</td>
+                </tr>
+                <tr>
+                    <td>git checkout &lt;branch&gt;</td>
+                    <td>Switch branch to &lt;branch&gt;</td>
+                </tr>
+                <tr>
+                    <td>git checkout -b &lt;branch&gt;</td>
+                    <td>Fork &lt;branch&gt; and switch on it</td>
+                </tr>
+                <tr>
+                    <td>git branch -D &lt;branch&gt;</td>
+                    <td>Delete &lt;branch&gt; local</td>
+                </tr>
+                <tr>
+                    <td>git push -d &lt;remote&gt; &lt;branch&gt;</td>
+                    <td>Delete &lt;branch&gt; on &lt;remote&gt; repository</td>
+                </tr>
+                <tr>
+                    <td>git commit --allow-empty -m</td>
+                    <td>Commit without content, but with message</td>
+                </tr>
+                <tr>
+                    <td>git commit</td>
+                    <td>Commit</td>
+                </tr>
+                <tr>
+                    <td>git commit --amend</td>
+                    <td>Change last commit</td>
+                </tr>
+                <tr>
+                    <td>git reset --hard && git clean -df</td>
+                    <td>Revert last commit</td>
+                </tr>
+                <tr>
+                    <td>git diff &lt;file&gt;</td>
+                    <td>Compare changes of &lt;file&gt;</td>
+                </tr>
+                <tr>
+                    <td>git pull</td>
+                    <td>Pull changes from remote repository</td>
+                </tr>
+                <tr>
+                    <td>git pull &lt;remote&gt; &lt;branch&gt;</td>
+                    <td>Pull &lt;branch&gt; from a specific &lt;remote&gt; repository</td>
+                </tr>
+                <tr>
+                    <td>git push</td>
+                    <td>Push changes to remote repository</td>
+                </tr>
+                <tr>
+                    <td>git push &lt;remote&gt; &lt;branch&gt;</td>
+                    <td>Push changes to a specific &lt;remote&gt; repository
+                        &lt;branch&gt;
+                    </td>
+                </tr>
+                <tr>
+                    <td>git stash</td>
+                    <td>Store changes in stash</td>
+                </tr>
+                <tr>
+                    <td>git stash pop</td>
+                    <td>Get changes back out of stash</td>
+                </tr>
+                <tr>
+                    <td>git stage .</td>
+                    <td>Load all changes to index</td>
+                </tr>
+                <tr>
+                    <td>git add &lt;file&gt;</td>
+                    <td>Load changes of &lt;file&gt;s to index</td>
+                </tr>
+                <tr>
+                    <td>git rm --cached</td>
+                    <td>Get changed files back to working tree</td>
+                </tr>
+                <tr>
+                    <td>git add -p &lt;file&gt;</td>
+                    <td>Load parts of changes of &lt;file&gt; to index</td>
+                </tr>
+                <tr>
+                    <td>y</td>
+                    <td>Stage hunk</td>
+                </tr>
+                <tr>
+                    <td>n</td>
+                    <td>Do not stage hunk</td>
+                </tr>
+                <tr>
+                    <td>q</td>
+                    <td>Quit, stage nothing</td>
+                </tr>
+                <tr>
+                    <td>a</td>
+                    <td>Stage hunk with all following hunks</td>
+                </tr>
+                <tr>
+                    <td>d</td>
+                    <td>Don't stage hunk and all following hunks too</td>
+                </tr>
+                <tr>
+                    <td>g</td>
+                    <td>Select a hunk to go to</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>Search for a hunk</td>
+                </tr>
+                <tr>
+                    <td>j</td>
+                    <td>Leave hunk undecided, see next undecided hunk</td>
+                </tr>
+                <tr>
+                    <td>J</td>
+                    <td>Leave hunk undecided, see next hunk</td>
+                </tr>
+                <tr>
+                    <td>k</td>
+                    <td>Leave hunk undecided, see previous undecided hunk</td>
+                </tr>
+                <tr>
+                    <td>K</td>
+                    <td>Leave hunk undecided, see previous hunk</td>
+                </tr>
+                <tr>
+                    <td>s</td>
+                    <td>Split hunk in smaller ones</td>
+                </tr>
+                <tr>
+                    <td>e</td>
+                    <td>Edit current hunk</td>
+                </tr>
+                <tr>
+                    <td>?</td>
+                    <td>Show help</td>
+                </tr>
+                <tr>
+                    <td>git add -N &lt;file&gt;</td>
+                    <td>Add untracked &lt;file&gt; to repository</td>
+                </tr>
+                <tr>
+                    <td>git diff --staged &lt;file&gt;</td>
+                    <td>Compare staged changes of &lt;file&gt;</td>
+                </tr>
+                <tr>
+                    <td>git reset -p</td>
+                    <td>Get hunk back from index</td>
+                </tr>
+                <tr>
+                    <td>git reset</td>
+                    <td>Get everything back from index</td>
+                </tr>
+                <tr>
+                    <td>git restore</td>
+                    <td>Restore file in repository to its original state</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="section-docker">
+            <table class="section-docker__table">
+                <caption>Docker</caption>
+                <thead>
+                <tr>
+                    <th>Command</th>
+                    <th>Function</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>docker</td>
+                    <td>List Docker commands</td>
+                </tr>
+                <tr>
+                    <td>docker ps -a -s</td>
+                    <td>List all containers</td>
+                </tr>
+                <tr>
+                    <td>docker stop $(docker ps -a -q</td>
+                    <td>Stop all containers</td>
+                </tr>
+                <tr>
+                    <td>docker stop &lt;container id&gt;</td>
+                    <td>Stop container with &lt;container id&gt;</td>
+                </tr>
+                <tr>
+                    <td>docker rm -f &lt;container id&gt;</td>
+                    <td>Remove container with &lt;container id&gt;</td>
+                </tr>
+                <tr>
+                    <td>docker rm -f $(docker ps -a -q)</td>
+                    <td>Remove all containers</td>
+                </tr>
+                <tr>
+                    <td>docker start &lt;container id&gt;</td>
+                    <td>Start container with &lt;container id&gt;</td>
+                </tr>
+                <tr>
+                    <td>docker exec -i -t &lt;container id&gt; /bin/bash</td>
+                    <td>Login on container</td>
+                </tr>
+                <tr>
+                    <td>docker images -a</td>
+                    <td>List all images</td>
+                </tr>
+                <tr>
+                    <td>docker rmi -f &lt;image id&gt;</td>
+                    <td>Delete image with &lt;image id&gt;</td>
+                </tr>
+                <tr>
+                    <td>docker rmi -f &(docker images -a -q)</td>
+                    <td>Delete all images</td>
+                </tr>
+                <tr>
+                    <td>docker network</td>
+                    <td>List network commands</td>
+                </tr>
+                <tr>
+                    <td>docker network ls</td>
+                    <td>List networks</td>
+                </tr>
+                <tr>
+                    <td>docker network rm -f &lt;network id&gt;</td>
+                    <td>Delete network with &lt;network id&gt;</td>
+                </tr>
+                <tr>
+                    <td>docker network prune -f</td>
+                    <td>Delete all networks</td>
+                </tr>
+                <tr>
+                    <td>docker volume</td>
+                    <td>List volume commands</td>
+                </tr>
+                <tr>
+                    <td>docker volume ls</td>
+                    <td>List volumes</td>
+                </tr>
+                <tr>
+                    <td>docker volume rm -f &lt;volume name&gt;</td>
+                    <td>Delete volume with &lt;volume name&gt;</td>
+                </tr>
+                <tr>
+                    <td>docker volume prune -f</td>
+                    <td>Delete all volumes</td>
+                </tr>
+                <tr>
+                    <td>docker inspect &lt;id&gt;</td>
+                    <td>Inspect</td>
+                </tr>
+                <tr>
+                    <td>docker system prune -a -f</td>
+                    <td>Delete everything</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="section-iterm">
+            <table>
+
+            </table>
+        </section>
+    </section>
 </main>
+<section>
+    <label for="foobar">Stuff</label>
+    <select name="foobar" id="foobar">
+        <option>
+            <a class="btn--yellow--196-24"
+               href="https://nekocalc.com/golden-ratio-calculator"
+               target="_blank">
+                Golden Ratio Calculator
+            </a>
+        </option>
+    </select>
+</section>
 <footer class="footer">
     <a href="https://www.w3schools.com/cssref/css_default_values.asp"
        target="_blank">CSS Default Values Reference</a>
