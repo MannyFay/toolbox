@@ -148,6 +148,21 @@ body {
     justify-content : center;
 }
 
+.logo-github {
+    width: 5%;
+    height: 5%;
+    color: pink;
+    fill: #fcc419;
+    background-color: deeppink;
+    background-blend-mode: color-burn;
+}
+
+ion-icon {
+    font-size: 64px;
+    color: green;
+    fill: green;
+}
+
 .header__main-heading {
     font-size      : 4.4rem;
     letter-spacing : -1px;
