@@ -53,6 +53,10 @@
     src         : url("/src/fonts/MunkenSansWeb-Regular.woff2");
 }
 
+@font-face {
+    font-family : ComputoMonospace;
+    src         : url("/src/fonts/computo-monospace.otf");
+}
 
 /*--------------------------------------------------*/
 /*------------- Variables */
@@ -246,6 +250,27 @@ ion-icon {
     gap            : 1.4rem;
 }
 
+.table__title {
+    font-size: 1.6rem;
+}
+
+.table__head {
+    font-size: 1.28rem;
+}
+
+.table__body {
+    font-size: 1.28rem;
+}
+
+.table__row {
+    height: 2rem;
+}
+.table__command-text {
+    font-family: "Fira Code";
+    width: 28rem;
+}
+
+
 
 /*--------------------------------------------------*/
 /*------------- Footer */
@@ -253,6 +278,7 @@ ion-icon {
 .footer {
     margin-top : 8rem;
 }
+
 
 
 

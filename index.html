@@ -290,192 +290,192 @@
     <div class="row">
         <section class="section">
             <table class="section-git__table">
-                <caption>Git</caption>
-                <thead>
+                <caption class="table__title">Git</caption>
+                <thead class="table__head">
                 <tr>
                     <th>Command</th>
                     <th>Function</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>git</td>
+                <tbody class="table__body">
+                <tr class="table__row">
+                    <td class="table__command-text">git</td>
                     <td>List Git commands</td>
                 </tr>
-                <tr>
-                    <td>git status</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git status</td>
                     <td>Show status in repository</td>
                 </tr>
-                <tr>
-                    <td>git status -s</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git status -s</td>
                     <td>Show status in repository as short</td>
                 </tr>
-                <tr>
-                    <td>git log</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git log</td>
                     <td>Show repository history</td>
                 </tr>
-                <tr>
-                    <td>git clone &lt;repo-clone-url&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git clone &lt;repo-clone-url&gt;</td>
                     <td>Clone remote repository on local machine</td>
                 </tr>
-                <tr>
-                    <td>git branch -a</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git branch -a</td>
                     <td>List local and remote branches</td>
                 </tr>
-                <tr>
-                    <td>git checkout &lt;branch&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git checkout &lt;branch&gt;</td>
                     <td>Switch branch to &lt;branch&gt;</td>
                 </tr>
-                <tr>
-                    <td>git checkout -b &lt;branch&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git checkout -b &lt;branch&gt;</td>
                     <td>Fork &lt;branch&gt; and switch on it</td>
                 </tr>
-                <tr>
-                    <td>git branch -D &lt;branch&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git branch -D &lt;branch&gt;</td>
                     <td>Delete &lt;branch&gt; local</td>
                 </tr>
-                <tr>
-                    <td>git push -d &lt;remote&gt; &lt;branch&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git push -d &lt;remote&gt; &lt;branch&gt;</td>
                     <td>Delete &lt;branch&gt; on &lt;remote&gt; repository</td>
                 </tr>
-                <tr>
-                    <td>git commit --allow-empty -m</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git commit --allow-empty -m</td>
                     <td>Commit without content, but with message</td>
                 </tr>
-                <tr>
-                    <td>git commit</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git commit</td>
                     <td>Commit</td>
                 </tr>
                 <tr>
-                    <td>git commit --amend</td>
+                    <td class="table__command-text">git commit --amend</td>
                     <td>Change last commit</td>
                 </tr>
-                <tr>
-                    <td>git reset --hard && git clean -df</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git reset --hard && git clean -df</td>
                     <td>Revert last commit</td>
                 </tr>
-                <tr>
-                    <td>git diff &lt;file&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git diff &lt;file&gt;</td>
                     <td>Compare changes of &lt;file&gt;</td>
                 </tr>
-                <tr>
-                    <td>git pull</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git pull</td>
                     <td>Pull changes from remote repository</td>
                 </tr>
-                <tr>
-                    <td>git pull &lt;remote&gt; &lt;branch&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git pull &lt;remote&gt; &lt;branch&gt;</td>
                     <td>Pull &lt;branch&gt; from a specific &lt;remote&gt;
                         repository
                     </td>
                 </tr>
-                <tr>
-                    <td>git push</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git push</td>
                     <td>Push changes to remote repository</td>
                 </tr>
-                <tr>
-                    <td>git push &lt;remote&gt; &lt;branch&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git push &lt;remote&gt; &lt;branch&gt;</td>
                     <td>Push changes to a specific &lt;remote&gt; repository
                         &lt;branch&gt;
                     </td>
                 </tr>
-                <tr>
-                    <td>git stash</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git stash</td>
                     <td>Store changes in stash</td>
                 </tr>
-                <tr>
-                    <td>git stash pop</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git stash pop</td>
                     <td>Get changes back out of stash</td>
                 </tr>
-                <tr>
-                    <td>git stage .</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git stage .</td>
                     <td>Load all changes to index</td>
                 </tr>
-                <tr>
-                    <td>git add &lt;file&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git add &lt;file&gt;</td>
                     <td>Load changes of &lt;file&gt;s to index</td>
                 </tr>
-                <tr>
-                    <td>git rm --cached</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git rm --cached</td>
                     <td>Get changed files back to working tree</td>
                 </tr>
-                <tr>
-                    <td>git add -p &lt;file&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git add -p &lt;file&gt;</td>
                     <td>Load parts of changes of &lt;file&gt; to index</td>
                 </tr>
-                <tr>
-                    <td>y</td>
+                <tr class="table__row">
+                    <td class="table__command-text">y</td>
                     <td>Stage hunk</td>
                 </tr>
-                <tr>
-                    <td>n</td>
+                <tr class="table__row">
+                    <td class="table__command-text">n</td>
                     <td>Do not stage hunk</td>
                 </tr>
-                <tr>
-                    <td>q</td>
+                <tr class="table__row">
+                    <td class="table__command-text">q</td>
                     <td>Quit, stage nothing</td>
                 </tr>
-                <tr>
-                    <td>a</td>
+                <tr class="table__row">
+                    <td class="table__command-text">a</td>
                     <td>Stage hunk with all following hunks</td>
                 </tr>
-                <tr>
-                    <td>d</td>
+                <tr class="table__row">
+                    <td class="table__command-text">d</td>
                     <td>Don't stage hunk and all following hunks too</td>
                 </tr>
-                <tr>
-                    <td>g</td>
+                <tr class="table__row">
+                    <td class="table__command-text">g</td>
                     <td>Select a hunk to go to</td>
                 </tr>
-                <tr>
-                    <td>/</td>
+                <tr class="table__row">
+                    <td class="table__command-text">/</td>
                     <td>Search for a hunk</td>
                 </tr>
-                <tr>
-                    <td>j</td>
+                <tr class="table__row">
+                    <td class="table__command-text">j</td>
                     <td>Leave hunk undecided, see next undecided hunk</td>
                 </tr>
-                <tr>
-                    <td>J</td>
+                <tr class="table__row">
+                    <td class="table__command-text">J</td>
                     <td>Leave hunk undecided, see next hunk</td>
                 </tr>
-                <tr>
-                    <td>k</td>
+                <tr class="table__row">
+                    <td class="table__command-text">k</td>
                     <td>Leave hunk undecided, see previous undecided hunk</td>
                 </tr>
-                <tr>
-                    <td>K</td>
+                <tr class="table__row">
+                    <td class="table__command-text">K</td>
                     <td>Leave hunk undecided, see previous hunk</td>
                 </tr>
-                <tr>
-                    <td>s</td>
+                <tr class="table__row">
+                    <td class="table__command-text">s</td>
                     <td>Split hunk in smaller ones</td>
                 </tr>
-                <tr>
-                    <td>e</td>
+                <tr class="table__row">
+                    <td class="table__command-text">e</td>
                     <td>Edit current hunk</td>
                 </tr>
-                <tr>
-                    <td>?</td>
+                <tr class="table__row">
+                    <td class="table__command-text">?</td>
                     <td>Show help</td>
                 </tr>
-                <tr>
-                    <td>git add -N &lt;file&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git add -N &lt;file&gt;</td>
                     <td>Add untracked &lt;file&gt; to repository</td>
                 </tr>
-                <tr>
-                    <td>git diff --staged &lt;file&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git diff --staged &lt;file&gt;</td>
                     <td>Compare staged changes of &lt;file&gt;</td>
                 </tr>
-                <tr>
-                    <td>git reset -p</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git reset -p</td>
                     <td>Get hunk back from index</td>
                 </tr>
-                <tr>
-                    <td>git reset</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git reset</td>
                     <td>Get everything back from index</td>
                 </tr>
-                <tr>
-                    <td>git restore</td>
+                <tr class="table__row">
+                    <td class="table__command-text">git restore</td>
                     <td>Restore file in repository to its original state</td>
                 </tr>
                 </tbody>
@@ -483,96 +483,96 @@
         </section>
         <section class="section">
             <table class="section-docker__table">
-                <caption>Docker</caption>
-                <thead>
+                <caption class="table__title">Docker</caption>
+                <thead class="table__head">
                 <tr>
                     <th>Command</th>
                     <th>Function</th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>docker</td>
+                <tbody class="table__body">
+                <tr class="table__row">
+                    <td class="table__command-text">docker</td>
                     <td>List Docker commands</td>
                 </tr>
-                <tr>
-                    <td>docker ps -a -s</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker ps -a -s</td>
                     <td>List all containers</td>
                 </tr>
-                <tr>
-                    <td>docker stop $(docker ps -a -q</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker stop $(docker ps -a -q</td>
                     <td>Stop all containers</td>
                 </tr>
-                <tr>
-                    <td>docker stop &lt;container id&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker stop &lt;container id&gt;</td>
                     <td>Stop container with &lt;container id&gt;</td>
                 </tr>
-                <tr>
-                    <td>docker rm -f &lt;container id&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker rm -f &lt;container id&gt;</td>
                     <td>Remove container with &lt;container id&gt;</td>
                 </tr>
-                <tr>
-                    <td>docker rm -f $(docker ps -a -q)</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker rm -f $(docker ps -a -q)</td>
                     <td>Remove all containers</td>
                 </tr>
-                <tr>
-                    <td>docker start &lt;container id&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker start &lt;container id&gt;</td>
                     <td>Start container with &lt;container id&gt;</td>
                 </tr>
-                <tr>
-                    <td>docker exec -i -t &lt;container id&gt; /bin/bash</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker exec -i -t &lt;container id&gt; /bin/bash</td>
                     <td>Login on container</td>
                 </tr>
-                <tr>
-                    <td>docker images -a</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker images -a</td>
                     <td>List all images</td>
                 </tr>
-                <tr>
-                    <td>docker rmi -f &lt;image id&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker rmi -f &lt;image id&gt;</td>
                     <td>Delete image with &lt;image id&gt;</td>
                 </tr>
-                <tr>
-                    <td>docker rmi -f &(docker images -a -q)</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker rmi -f &(docker images -a -q)</td>
                     <td>Delete all images</td>
                 </tr>
-                <tr>
-                    <td>docker network</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker network</td>
                     <td>List network commands</td>
                 </tr>
-                <tr>
-                    <td>docker network ls</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker network ls</td>
                     <td>List networks</td>
                 </tr>
-                <tr>
-                    <td>docker network rm -f &lt;network id&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker network rm -f &lt;network id&gt;</td>
                     <td>Delete network with &lt;network id&gt;</td>
                 </tr>
-                <tr>
-                    <td>docker network prune -f</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker network prune -f</td>
                     <td>Delete all networks</td>
                 </tr>
-                <tr>
-                    <td>docker volume</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker volume</td>
                     <td>List volume commands</td>
                 </tr>
-                <tr>
-                    <td>docker volume ls</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker volume ls</td>
                     <td>List volumes</td>
                 </tr>
-                <tr>
-                    <td>docker volume rm -f &lt;volume name&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker volume rm -f &lt;volume name&gt;</td>
                     <td>Delete volume with &lt;volume name&gt;</td>
                 </tr>
-                <tr>
-                    <td>docker volume prune -f</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker volume prune -f</td>
                     <td>Delete all volumes</td>
                 </tr>
-                <tr>
-                    <td>docker inspect &lt;id&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker inspect &lt;id&gt;</td>
                     <td>Inspect</td>
                 </tr>
-                <tr>
-                    <td>docker system prune -a -f</td>
+                <tr class="table__row">
+                    <td class="table__command-text">docker system prune -a -f</td>
                     <td>Delete everything</td>
                 </tr>
                 </tbody>
@@ -580,36 +580,36 @@
         </section>
         <section class="section">
             <table class="section-iterm2__table">
-                <caption>iTerm2</caption>
-                <thead>
+                <caption class="table__title">iTerm2</caption>
+                <thead class="table__head">
                 <tr>
                     <td>Command</td>
                     <td>Function</td>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>&#8984 + d</td>
+                <tbody class="table__body">
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 + d</td>
                     <td>Split pane vertically</td>
                 </tr>
-                <tr>
-                    <td>&#8984 + &#8679; + d</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 + &#8679; + d</td>
                     <td>Split pane horizontally</td>
                 </tr>
-                <tr>
-                    <td>&#8984 + &#8997; + &lt;arrow keys&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 + &#8997; + &lt;arrow keys&gt;</td>
                     <td>Switch panes</td>
                 </tr>
-                <tr>
-                    <td>&#8984 + &#8679; + &#9166;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 + &#8679; + &#9166;</td>
                     <td>Toggle pane to full screen and hide others</td>
                 </tr>
-                <tr>
-                    <td>&#8963; + k</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; + k</td>
                     <td>Delete line from cursor</td>
                 </tr>
-                <tr>
-                    <td>&#8963; + u</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; + u</td>
                     <td>Delete whole line</td>
                 </tr>
                 </tbody>
@@ -617,156 +617,156 @@
         </section>
         <section class="section">
             <table class="section-intellij__table">
-                <caption>IntelliJ</caption>
-                <thead>
+                <caption class="table__title">IntelliJ</caption>
+                <thead class="table__head">
                 <tr>
                     <td>Command</td>
                     <td>Function</td>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>&#8963; + tab</td>
+                <tbody class="table__body">
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; + tab</td>
                     <td>File/Tool switcher</td>
                 </tr>
-                <tr>
-                    <td>&#8963; &#8679; n</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; &#8679; n</td>
                     <td>Bookmark line !! Ask !!</td>
                 </tr>
-                <tr>
-                    <td>&#8963;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963;</td>
                     <td>Ask !!</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8679;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8679;</td>
                     <td>Search everywhere</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &#8679; f</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &#8679; f</td>
                     <td>Find in files</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 l</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 l</td>
                     <td>Reformat content</td>
                 </tr>
-                <tr>
-                    <td>&#8984 q</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 q</td>
                     <td>Quit IDE</td>
                 </tr>
-                <tr>
-                    <td>&#8984 ,</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 ,</td>
                     <td>Settings</td>
                 </tr>
-                <tr>
-                    <td>&#8997;	F12</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997;	F12</td>
                     <td>Terminal</td>
                 </tr>
-                <tr>
-                    <td>&#9003;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#9003;</td>
                     <td>Delete file</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &#9003;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &#9003;</td>
                     <td>Safe delete file</td>
                 </tr>
-                <tr>
-                    <td>&#8679; F6</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; F6</td>
                     <td>Rename file</td>
                 </tr>
-                <tr>
-                    <td>&#8984 f</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 f</td>
                     <td>Find in file</td>
                 </tr>
-                <tr>
-                    <td>&#8984 n</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 n</td>
                     <td>New file/directory</td>
                 </tr>
-                <tr>
-                    <td>&#8984 e</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 e</td>
                     <td>Recent files</td>
                 </tr>
-                <tr>
-                    <td>&#8984 1</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 1</td>
                     <td>Project tree</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#9166;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#9166;</td>
                     <td>Context actions</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 m</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 m</td>
                     <td>Extract method</td>
                 </tr>
-                <tr>
-                    <td>&#8984 F12</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 F12</td>
                     <td>File structure</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &uarr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &uarr;</td>
                     <td>Floating file system</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &#8679; &uarr;/&darr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &#8679; &uarr;/&darr;</td>
                     <td>Go to method</td>
                 </tr>
-                <tr>
-                    <td>&#8984 l</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 l</td>
                     <td>Go to line</td>
                 </tr>
-                <tr>
-                    <td>F2</td>
+                <tr class="table__row">
+                    <td class="table__command-text">F2</td>
                     <td>Next error</td>
                 </tr>
-                <tr>
-                    <td>&#8679; F2</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; F2</td>
                     <td>Previous error</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8984 &#9003;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8984 &#9003;</td>
                     <td>Go to last edited point</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 v</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 v</td>
                     <td>Extract variable</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 n</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 n</td>
                     <td>Inline</td>
                 </tr>
-                <tr>
-                    <td>&#8679; esc</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; esc</td>
                     <td>Close tool window</td>
                 </tr>
-                <tr>
-                    <td>&#8984 n</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 n</td>
                     <td>Generate method</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8997;	&uarr;/&darr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8997;	&uarr;/&darr;</td>
                     <td>Move line</td>
                 </tr>
-                <tr>
-                    <td>&#8997;	&#8984 t</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997;	&#8984 t</td>
                     <td>Surround with ...</td>
                 </tr>
-                <tr>
-                    <td>&#8984 /</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 /</td>
                     <td>Add/remove line comment</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8997; &#8984 x</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8997; &#8984 x</td>
                     <td>Upload/deploy to ...</td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8997; click/drag</td>
+                    <td>Multiple cursors in rows above/below</td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; click</td>
+                    <td>Multiple cursors in different places</td>
                 </tr>
-                <tr>
-                    <td></td>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
                 </tr>
                 </tbody>
@@ -774,372 +774,372 @@
         </section>
         <section class="section">
             <table class="section-vim__table">
-                <caption>Vim</caption>
-                <thead>
+                <caption class="table__title">Vim</caption>
+                <thead class="table__head">
                 <tr>
                     <td>Command</td>
                     <td>Function</td>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>j</td>
+                <tbody class="table__body">
+                <tr class="table__row">
+                    <td class="table__command-text">j</td>
                     <td>&darr;</td>
                 </tr>
-                <tr>
-                    <td>k</td>
+                <tr class="table__row">
+                    <td class="table__command-text">k</td>
                     <td>&uarr;</td>
                 </tr>
-                <tr>
-                    <td>h</td>
+                <tr class="table__row">
+                    <td class="table__command-text">h</td>
                     <td>&larr;</td>
                 </tr>
-                <tr>
-                    <td>l</td>
+                <tr class="table__row">
+                    <td class="table__command-text">l</td>
                     <td>&rarr;</td>
                 </tr>
-                <tr>
-                    <td>w</td>
+                <tr class="table__row">
+                    <td class="table__command-text">w</td>
                     <td>Next word</td>
                 </tr>
-                <tr>
-                    <td>b</td>
+                <tr class="table__row">
+                    <td class="table__command-text">b</td>
                     <td>Previous word</td>
                 </tr>
-                <tr>
-                    <td>gg</td>
+                <tr class="table__row">
+                    <td class="table__command-text">gg</td>
                     <td>First line on first char</td>
                 </tr>
-                <tr>
-                    <td>G</td>
+                <tr class="table__row">
+                    <td class="table__command-text">G</td>
                     <td>Last line on first char</td>
                 </tr>
-                <tr>
-                    <td>M</td>
+                <tr class="table__row">
+                    <td class="table__command-text">M</td>
                     <td>Middle of screen on first char</td>
                 </tr>
-                <tr>
-                    <td>0</td>
+                <tr class="table__row">
+                    <td class="table__command-text">0</td>
                     <td>Start of line</td>
                 </tr>
-                <tr>
-                    <td>$</td>
+                <tr class="table__row">
+                    <td class="table__command-text">$</td>
                     <td>End of line</td>
                 </tr>
-                <tr>
-                    <td>H</td>
+                <tr class="table__row">
+                    <td class="table__command-text">H</td>
                     <td>Top of screen on first char</td>
                 </tr>
-                <tr>
-                    <td>L</td>
+                <tr class="table__row">
+                    <td class="table__command-text">L</td>
                     <td>Bottom of screen on first char</td>
                 </tr>
-                <tr>
-                    <td>u</td>
+                <tr class="table__row">
+                    <td class="table__command-text">u</td>
                     <td>Undo</td>
                 </tr>
-                <tr>
-                    <td>&#8963;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963;</td>
                     <td>Redo</td>
                 </tr>
-                <tr>
-                    <td>x</td>
+                <tr class="table__row">
+                    <td class="table__command-text">x</td>
                     <td>Cut char on cursor</td>
                 </tr>
-                <tr>
-                    <td>X</td>
+                <tr class="table__row">
+                    <td class="table__command-text">X</td>
                     <td>Cut char before cursor</td>
                 </tr>
-                <tr>
-                    <td>dd</td>
+                <tr class="table__row">
+                    <td class="table__command-text">dd</td>
                     <td>Cut line</td>
                 </tr>
-                <tr>
-                    <td>D</td>
+                <tr class="table__row">
+                    <td class="table__command-text">D</td>
                     <td>Cut line from cursor</td>
                 </tr>
-                <tr>
-                    <td>yy</td>
+                <tr class="table__row">
+                    <td class="table__command-text">yy</td>
                     <td>Copy (yank) line</td>
                 </tr>
-                <tr>
-                    <td>p</td>
+                <tr class="table__row">
+                    <td class="table__command-text">p</td>
                     <td>Put in after/under cursor</td>
                 </tr>
-                <tr>
-                    <td>P</td>
+                <tr class="table__row">
+                    <td class="table__command-text">P</td>
                     <td>Put in before/above cursor</td>
                 </tr>
-                <tr>
-                    <td>diw</td>
+                <tr class="table__row">
+                    <td class="table__command-text">diw</td>
                     <td>Cut word</td>
                 </tr>
-                <tr>
-                    <td>daw</td>
+                <tr class="table__row">
+                    <td class="table__command-text">daw</td>
                     <td>Cut word with whitespace</td>
                 </tr>
-                <tr>
-                    <td>yiw</td>
+                <tr class="table__row">
+                    <td class="table__command-text">yiw</td>
                     <td>Copy word</td>
                 </tr>
-                <tr>
-                    <td>yaw</td>
+                <tr class="table__row">
+                    <td class="table__command-text">yaw</td>
                     <td>Copy word with whitespace</td>
                 </tr>
-                <tr>
-                    <td>&gt;&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&gt;&gt;</td>
                     <td>Indent line</td>
                 </tr>
-                <tr>
-                    <td>&lt;&lt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&lt;&lt;</td>
                     <td>De-indent line</td>
                 </tr>
-                <tr>
-                    <td>==</td>
+                <tr class="table__row">
+                    <td class="table__command-text">==</td>
                     <td>Auto indent line</td>
                 </tr>
-                <tr>
-                    <td>zz</td>
+                <tr class="table__row">
+                    <td class="table__command-text">zz</td>
                     <td>Center line on screen</td>
                 </tr>
-                <tr>
-                    <td>zt</td>
+                <tr class="table__row">
+                    <td class="table__command-text">zt</td>
                     <td>Push line on top of screen</td>
                 </tr>
-                <tr>
-                    <td>zb</td>
+                <tr class="table__row">
+                    <td class="table__command-text">zb</td>
                     <td>Push line on bottom of screen</td>
                 </tr>
-                <tr>
-                    <td>.</td>
+                <tr class="table__row">
+                    <td class="table__command-text">.</td>
                     <td>Repeat last command</td>
                 </tr>
-                <tr>
-                    <td>%</td>
+                <tr class="table__row">
+                    <td class="table__command-text">%</td>
                     <td>Go to matching bracket</td>
                 </tr>
-                <tr>
-                    <td>&#8963; e</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; e</td>
                     <td>Scroll down</td>
                 </tr>
-                <tr>
-                    <td>&#8963; y</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; y</td>
                     <td>Scroll up</td>
                 </tr>
-                <tr>
-                    <td>gd</td>
+                <tr class="table__row">
+                    <td class="table__command-text">gd</td>
                     <td>Go to local declaration</td>
                 </tr>
-                <tr>
-                    <td>gD</td>
+                <tr class="table__row">
+                    <td class="table__command-text">gD</td>
                     <td>Go to global declaration</td>
                 </tr>
-                <tr>
-                    <td>g_</td>
+                <tr class="table__row">
+                    <td class="table__command-text">g_</td>
                     <td>Last char of line</td>
                 </tr>
-                <tr>
-                    <td>&#8963;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963;</td>
                     <td>First char of line</td>
                 </tr>
-                <tr>
-                    <td>xp</td>
+                <tr class="table__row">
+                    <td class="table__command-text">xp</td>
                     <td>Transpose char on/right of cursor</td>
                 </tr>
-                <tr>
-                    <td>r &lt;char&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">r &lt;char&gt;</td>
                     <td>Replace char with &lt;char&gt;</td>
                 </tr>
-                <tr>
-                    <td>J</td>
+                <tr class="table__row">
+                    <td class="table__command-text">J</td>
                     <td>Join next line with whitespace</td>
                 </tr>
-                <tr>
-                    <td>gJ</td>
+                <tr class="table__row">
+                    <td class="table__command-text">gJ</td>
                     <td>Join next line</td>
                 </tr>
-                <tr>
-                    <td>&#8963; w v</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; w v</td>
                     <td>Vertical split</td>
                 </tr>
-                <tr>
-                    <td>&#8963; w s</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; w s</td>
                     <td>Horizontal split</td>
                 </tr>
-                <tr>
-                    <td>&#8963; w l</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; w l</td>
                     <td>Go to right split</td>
                 </tr>
-                <tr>
-                    <td>&#8963; w h</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; w h</td>
                     <td>Go to left split</td>
                 </tr>
-                <tr>
-                    <td>&#8963; w j</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; w j</td>
                     <td>Go to split below</td>
                 </tr>
-                <tr>
-                    <td>&#8963; w k</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; w k</td>
                     <td>Go to split above</td>
                 </tr>
-                <tr>
-                    <td>&#8963; w w</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; w w</td>
                     <td>Switch splits clockwise</td>
                 </tr>
-                <tr>
-                    <td>cab</td>
+                <tr class="table__row">
+                    <td class="table__command-text">cab</td>
                     <td>Clear () block</td>
                 </tr>
-                <tr>
-                    <td>cib</td>
+                <tr class="table__row">
+                    <td class="table__command-text">cib</td>
                     <td>Clear inner of () block</td>
                 </tr>
-                <tr>
-                    <td>caB</td>
+                <tr class="table__row">
+                    <td class="table__command-text">caB</td>
                     <td>Clear {} block</td>
                 </tr>
-                <tr>
-                    <td>ciB</td>
+                <tr class="table__row">
+                    <td class="table__command-text">ciB</td>
                     <td>Clear inner of {} block</td>
                 </tr>
-                <tr>
-                    <td>ca[</td>
+                <tr class="table__row">
+                    <td class="table__command-text">ca[</td>
                     <td>Clear [] block</td>
                 </tr>
-                <tr>
-                    <td>ci[</td>
+                <tr class="table__row">
+                    <td class="table__command-text">ci[</td>
                     <td>Clear inner of [] block</td>
                 </tr>
-                <tr>
-                    <td>i</td>
+                <tr class="table__row">
+                    <td class="table__command-text">i</td>
                     <td>Insert before cursor</td>
                 </tr>
-                <tr>
-                    <td>a</td>
+                <tr class="table__row">
+                    <td class="table__command-text">a</td>
                     <td>Insert after cursor</td>
                 </tr>
-                <tr>
-                    <td>I</td>
+                <tr class="table__row">
+                    <td class="table__command-text">I</td>
                     <td>Insert before first char of line</td>
                 </tr>
-                <tr>
-                    <td>A</td>
+                <tr class="table__row">
+                    <td class="table__command-text">A</td>
                     <td>Insert after last char of line</td>
                 </tr>
-                <tr>
-                    <td>O</td>
+                <tr class="table__row">
+                    <td class="table__command-text">O</td>
                     <td>Insert line above</td>
                 </tr>
-                <tr>
-                    <td>o</td>
+                <tr class="table__row">
+                    <td class="table__command-text">o</td>
                     <td>Insert line below</td>
                 </tr>
-                <tr>
-                    <td>s</td>
+                <tr class="table__row">
+                    <td class="table__command-text">s</td>
                     <td>Substitute char</td>
                 </tr>
-                <tr>
-                    <td>S</td>
+                <tr class="table__row">
+                    <td class="table__command-text">S</td>
                     <td>Substitute line</td>
                 </tr>
-                <tr>
-                    <td>C</td>
+                <tr class="table__row">
+                    <td class="table__command-text">C</td>
                     <td>Clear from cursor</td>
                 </tr>
-                <tr>
-                    <td>ea</td>
+                <tr class="table__row">
+                    <td class="table__command-text">ea</td>
                     <td>Insert after word</td>
                 </tr>
-                <tr>
-                    <td>cw</td>
+                <tr class="table__row">
+                    <td class="table__command-text">cw</td>
                     <td>Clear till end of word</td>
                 </tr>
-                <tr>
-                    <td>cb</td>
+                <tr class="table__row">
+                    <td class="table__command-text">cb</td>
                     <td>Clear till start of word</td>
                 </tr>
-                <tr>
-                    <td>&#8963;	w</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963;	w</td>
                     <td>Delete word before cursor !NW</td>
                 </tr>
-                <tr>
-                    <td>&#8963;	u</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963;	u</td>
                     <td>Delete line before cursor !NW</td>
                 </tr>
-                <tr>
-                    <td>&#8963;	t</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963;	t</td>
                     <td>Indent line !NW</td>
                 </tr>
-                <tr>
-                    <td>&#8963;	d</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963;	d</td>
                     <td>De-indent line !NW</td>
                 </tr>
-                <tr>
-                    <td>&#8963; o H</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; o H</td>
                     <td>Insert at top of screen !NW</td>
                 </tr>
-                <tr>
-                    <td>f &lt;char&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">f &lt;char&gt;</td>
                     <td>Go on &lt;char&gt; in line</td>
                 </tr>
-                <tr>
-                    <td>F &lt;char&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">F &lt;char&gt;</td>
                     <td>Go back on &lt;char&gt;</td>
                 </tr>
-                <tr>
-                    <td>;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">;</td>
                     <td>Go on next occurrence in line</td>
                 </tr>
-                <tr>
-                    <td>,</td>
+                <tr class="table__row">
+                    <td class="table__command-text">,</td>
                     <td>Go on previous occurrence in line</td>
                 </tr>
-                <tr>
-                    <td>*</td>
+                <tr class="table__row">
+                    <td class="table__command-text">*</td>
                     <td>Go on next occurrence</td>
                 </tr>
-                <tr>
-                    <td>#</td>
+                <tr class="table__row">
+                    <td class="table__command-text">#</td>
                     <td>Go on previous occurrence</td>
                 </tr>
-                <tr>
-                    <td>n</td>
+                <tr class="table__row">
+                    <td class="table__command-text">n</td>
                     <td>Repeat search</td>
                 </tr>
-                <tr>
-                    <td>N</td>
+                <tr class="table__row">
+                    <td class="table__command-text">N</td>
                     <td>Repeat search opposite</td>
                 </tr>
-                <tr>
-                    <td>/&lt;string&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">/&lt;string&gt;</td>
                     <td>Search for &lt;string&gt;</td>
                 </tr>
-                <tr>
-                    <td>?&lt;string&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">?&lt;string&gt;</td>
                     <td>Search back for &lt;string&gt;</td>
                 </tr>
-                <tr>
-                    <td>v</td>
+                <tr class="table__row">
+                    <td class="table__command-text">v</td>
                     <td>Mark</td>
                 </tr>
-                <tr>
-                    <td>V</td>
+                <tr class="table__row">
+                    <td class="table__command-text">V</td>
                     <td>Mark line</td>
                 </tr>
-                <tr>
-                    <td>&#8963; v</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; v</td>
                     <td>Mark block</td>
                 </tr>
-                <tr>
-                    <td>o</td>
+                <tr class="table__row">
+                    <td class="table__command-text">o</td>
                     <td>Jump to start/end of marked area</td>
                 </tr>
-                <tr>
-                    <td>gv</td>
+                <tr class="table__row">
+                    <td class="table__command-text">gv</td>
                     <td>Re-select previous area</td>
                 </tr>
-                <tr>
-                    <td>qw</td>
+                <tr class="table__row">
+                    <td class="table__command-text">qw</td>
                     <td>Mark word</td>
                 </tr>
                 </tbody>
@@ -1147,82 +1147,82 @@
         </section>
         <section class="section">
             <table class="section-entities__table">
-                <caption>HTML Entities</caption>
-                <thead>
+                <caption class="table__title">HTML Entities</caption>
+                <thead class="table__head">
                 <tr>
                     <td>Entity</td>
                     <td>Encoding</td>
                     <td>Name</td>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
+                <tbody class="table__body">
+                <tr class="table__row">
                     <td>&#8997;</td>
-                    <td>&amp;#8997;</td>
+                    <td class="table__command-text">&amp;#8997;</td>
                     <td>Option</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&#8679;</td>
-                    <td>&amp;#8679;</td>
+                    <td class="table__command-text">&amp;#8679;</td>
                     <td>Shift</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&#8984</td>
-                    <td>&amp;#8984</td>
+                    <td class="table__command-text">&amp;#8984</td>
                     <td>Command</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&#8963;</td>
-                    <td>&amp;#8963;</td>
+                    <td class="table__command-text">&amp;#8963;</td>
                     <td>Control</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&#9166;</td>
-                    <td>&amp;#9166;</td>
+                    <td class="table__command-text">&amp;#9166;</td>
                     <td>Return</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&#9003;</td>
-                    <td>&amp;#9003;</td>
+                    <td class="table__command-text">&amp;#9003;</td>
                     <td>Erase to the left</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&uarr;</td>
-                    <td>&amp;uarr;</td>
+                    <td class="table__command-text">&amp;uarr;</td>
                     <td>Up arrow</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&darr;</td>
-                    <td>&amp;darr;</td>
+                    <td class="table__command-text">&amp;darr;</td>
                     <td>Down arrow</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&larr;</td>
-                    <td>&amp;larr;</td>
+                    <td class="table__command-text">&amp;larr;</td>
                     <td>Left arrow</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&rarr;</td>
-                    <td>&amp;rarr;</td>
+                    <td class="table__command-text">&amp;rarr;</td>
                     <td>Right arrow</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&gt;</td>
-                    <td>&amp;gt;</td>
+                    <td class="table__command-text">&amp;gt;</td>
                 </tr>
-                <tr>
+                <tr class="table__row">
                     <td>&lt;</td>
-                    <td>&amp;lt;</td>
+                    <td class="table__command-text">&amp;lt;</td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
+                <tr class="table__row">
                     <td></td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="table__row">
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="table__row">
                     <td></td>
                     <td></td>
                 </tr>
@@ -1231,232 +1231,232 @@
         </section>
         <section class="section">
             <table class="section-chrome__table">
-                <caption>Google Chrome</caption>
-                <thead>
+                <caption class="table__title">Google Chrome</caption>
+                <thead class="table__head">
                 <tr>
                     <td>Command</td>
                     <td>Function</td>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>&#8984 n</td>
+                <tbody class="table__body">
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 n</td>
                     <td>New window</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8984 n</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8984 n</td>
                     <td>New incognito window</td>
                 </tr>
-                <tr>
-                    <td>&#8984 t</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 t</td>
                     <td>New tab</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8984 t</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8984 t</td>
                     <td>Reopen closed tab(s)</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 &rarr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 &rarr;</td>
                     <td>Jump to next tab</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 &larr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 &larr;</td>
                     <td>Jump to previous tab</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &lt;number&gt;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &lt;number&gt;</td>
                     <td>Jump to tab &lt;number&gt;</td>
                 </tr>
-                <tr>
-                    <td>&#8984 9</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 9</td>
                     <td>Jump to last tab</td>
                 </tr>
-                <tr>
-                    <td>&#8984 [</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 [</td>
                     <td>Open previous page in history</td>
                 </tr>
-                <tr>
-                    <td>&#8984 ]</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 ]</td>
                     <td>Open next page in history</td>
                 </tr>
-                <tr>
-                    <td>&#8984 w</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 w</td>
                     <td>Close tab or pop up</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8984 w</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8984 w</td>
                     <td>Close current window</td>
                 </tr>
-                <tr>
-                    <td>&#8984 m</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 m</td>
                     <td>Minimize window</td>
                 </tr>
-                <tr>
-                    <td>&#8984 h</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 h</td>
                     <td>Hide Chrome</td>
                 </tr>
-                <tr>
-                    <td>&#8984 q</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 q</td>
                     <td>Quit Chrome</td>
                 </tr>
-                <tr>
-                    <td>&#8984 l</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 l</td>
                     <td>Enter address bar</td>
                 </tr>
-                <tr>
-                    <td>&lt;search engine name&gt; tab</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&lt;search engine name&gt; tab</td>
                     <td>Search with another search engine</td>
                 </tr>
-                <tr>
-                    <td>&lt;site name&gt; &#8963; &#9166;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&lt;site name&gt; &#8963; &#9166;</td>
                     <td>Add www. and .com to &lt;site name&gt;, open it</td>
                 </tr>
-                <tr>
-                    <td>&lt;site name&gt; &#8679; &#8963; &#9166;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&lt;site name&gt; &#8679; &#8963; &#9166;</td>
                     <td>Add www. and .com to &lt;site name&gt;, open in new tab</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8963; i</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8963; i</td>
                     <td>E-Mail with link of current page</td>
                 </tr>
-                <tr>
-                    <td>&#8984 p</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 p</td>
                     <td>Print page</td>
                 </tr>
-                <tr>
-                    <td>&#8984 s</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 s</td>
                     <td>Safe page</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 p</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 p</td>
                     <td>Open OS print dialog</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8984 r</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8984 r</td>
                     <td>Reload, ignore cache</td>
                 </tr>
-                <tr>
-                    <td>esc</td>
+                <tr class="table__row">
+                    <td class="table__command-text">esc</td>
                     <td>Stop page loading</td>
                 </tr>
-                <tr>
-                    <td>tab</td>
+                <tr class="table__row">
+                    <td class="table__command-text">tab</td>
                     <td>Next clickable item</td>
                 </tr>
-                <tr>
-                    <td>&#8679; tab</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; tab</td>
                     <td>Previous clickable item</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 u</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 u</td>
                     <td>Display HTML</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 j</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 j</td>
                     <td>Open/Close JS console</td>
                 </tr>
-                <tr>
-                    <td>F12</td>
+                <tr class="table__row">
+                    <td class="table__command-text">F12</td>
                     <td>Open/Close developer tools</td>
                 </tr>
-                <tr>
-                    <td>&#8984 d</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 d</td>
                     <td>Safe page as bookmark</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8984 d</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8984 d</td>
                     <td>Safe all tabs as bookmarks in new folder</td>
                 </tr>
-                <tr>
-                    <td>&#8963; &#8984 f</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; &#8984 f</td>
                     <td>Toggle full screen</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8984 +</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8984 +</td>
                     <td>Zoom in</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8984 -</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8984 -</td>
                     <td>Zoom out</td>
                 </tr>
-                <tr>
-                    <td>&#8984 0</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 0</td>
                     <td>Size back to regular</td>
                 </tr>
-                <tr>
-                    <td>space</td>
+                <tr class="table__row">
+                    <td class="table__command-text">space</td>
                     <td>Scroll page down</td>
                 </tr>
-                <tr>
-                    <td>Scroll page up</td>
+                <tr class="table__row">
+                    <td class="table__command-text">Scroll page up</td>
                     <td></td>
                 </tr>
-                <tr>
-                    <td>&#8679; space</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; space</td>
                     <td>Scroll page down</td>
                 </tr>
-                <tr>
-                    <td>&darr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&darr;</td>
                     <td>Scroll down</td>
                 </tr>
-                <tr>
-                    <td>&uarr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&uarr;</td>
                     <td>Scroll up</td>
                 </tr>
-                <tr>
-                    <td>&rarr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&rarr;</td>
                     <td>Scroll right</td>
                 </tr>
-                <tr>
-                    <td>&larr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&larr;</td>
                     <td>Scroll left</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 f</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 f</td>
                     <td>Search the web</td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
+                    <td></td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
+                    <td></td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
+                    <td></td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
+                    <td></td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
                 </tr>
                 </tbody>
@@ -1464,172 +1464,172 @@
         </section>
         <section class="section">
             <table class="section-chrome__table">
-                <caption>macOS</caption>
-                <thead>
+                <caption class="table__title">macOS</caption>
+                <thead class="table__head">
                 <tr>
                     <td>Command</td>
                     <td>Function</td>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>fn</td>
+                <tbody class="table__body">
+                <tr class="table__row">
+                    <td class="table__command-text">fn</td>
                     <td>Switch keyboard layout</td>
                 </tr>
-                <tr>
-                    <td>&#8984 ␣</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 ␣</td>
                     <td>Spotlight</td>
                 </tr>
-                <tr>
-                    <td>&#8997;	&#8984 ⏏︎</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997;	&#8984 ⏏︎</td>
                     <td>Sleep</td>
                 </tr>
-                <tr>
-                    <td>&#8984 h</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 h</td>
                     <td>Hide window</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 h</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 h</td>
                     <td>Hide other windows</td>
                 </tr>
-                <tr>
-                    <td>&#8984 m</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 m</td>
                     <td>Min-/Maximize window</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 m</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 m</td>
                     <td>Push app windows to dock</td>
                 </tr>
-                <tr>
-                    <td>&#8984 w</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 w</td>
                     <td>Close window</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &#8984 w</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &#8984 w</td>
                     <td>Close all windows of app</td>
                 </tr>
-                <tr>
-                    <td>&#8984 t</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 t</td>
                     <td>New tab</td>
                 </tr>
-                <tr>
-                    <td>&#8963; &#8984 f</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; &#8984 f</td>
                     <td>Toggle full screen</td>
                 </tr>
-                <tr>
-                    <td>&#8963; &#8984 &uarr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; &#8984 &uarr;</td>
                     <td>Toggle to half top</td>
                 </tr>
-                <tr>
-                    <td>&#8963; &#8984 &darr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; &#8984 &darr;</td>
                     <td>Toggle to half bottom</td>
                 </tr>
-                <tr>
-                    <td>&#8963; &#8984 &larr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; &#8984 &larr;</td>
                     <td>Toggle to half left</td>
                 </tr>
-                <tr>
-                    <td>&#8963; &#8984 &rarr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; &#8984 &rarr;</td>
                     <td>Toggle to half right</td>
                 </tr>
-                <tr>
-                    <td>&#8984 ,</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 ,</td>
                     <td>App preferences</td>
                 </tr>
-                <tr>
-                    <td>&#8984 o</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 o</td>
                     <td>Open item dialog</td>
                 </tr>
-                <tr>
-                    <td>&#8963; &#8984 ␣</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8963; &#8984 ␣</td>
                     <td>Open character viewer</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &larr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &larr;</td>
                     <td>To start of word</td>
                 </tr>
-                <tr>
-                    <td>&#8997; &rarr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997; &rarr;</td>
                     <td>To end of word</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &larr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &larr;</td>
                     <td>To start of line</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &rarr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &rarr;</td>
                     <td>To end of line</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &darr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &darr;</td>
                     <td>To end of file</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &uarr;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &uarr;</td>
                     <td>To start of line</td>
                 </tr>
-                <tr>
-                    <td>fn &#9003;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">fn &#9003;</td>
                     <td>Forward delete</td>
                 </tr>
-                <tr>
-                    <td>&#8997;	&#9003;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997;	&#9003;</td>
                     <td>Delete previous word</td>
                 </tr>
-                <tr>
-                    <td>fn &#8997; &#9003;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">fn &#8997; &#9003;</td>
                     <td>Delete from cursor/next word</td>
                 </tr>
-                <tr>
-                    <td>&#8984 &#9003;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 &#9003;</td>
                     <td>Delete line backwards</td>
                 </tr>
-                <tr>
-                    <td>fn &#8984 &#9003;</td>
+                <tr class="table__row">
+                    <td class="table__command-text">fn &#8984 &#9003;</td>
                     <td>Delete line forwards</td>
                 </tr>
-                <tr>
-                    <td>&#8984 c</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 c</td>
                     <td>Copy</td>
                 </tr>
-                <tr>
-                    <td>&#8984 v</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 v</td>
                     <td>Paste</td>
                 </tr>
-                <tr>
-                    <td>&#8997;	&#8984 v</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8997;	&#8984 v</td>
                     <td>Cut & paste</td>
                 </tr>
-                <tr>
-                    <td>&#8984 z</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 z</td>
                     <td>Undo</td>
                 </tr>
-                <tr>
-                    <td>&#8679; &#8984 z</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8679; &#8984 z</td>
                     <td>Redo</td>
                 </tr>
-                <tr>
-                    <td>&#8984 s</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 s</td>
                     <td>Save</td>
                 </tr>
-                <tr>
-                    <td>&#8984 f</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 f</td>
                     <td>Find in document</td>
                 </tr>
-                <tr>
-                    <td>&#8984 g</td>
+                <tr class="table__row">
+                    <td class="table__command-text">&#8984 g</td>
                     <td>Next item</td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
                 </tr>
-                <tr>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
+                </tr>
+                <tr class="table__row">
+                    <td class="table__command-text"></td>
                     <td></td>
                 </tr>
                 </tbody>
